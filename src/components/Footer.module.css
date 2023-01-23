@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.625rem;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    display: flex;
+    gap: 0.625rem;
+    flex-wrap: wrap;
+}
+
+.ul_list li {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.ul_list li a{
+    display: inline-block;
+}
+
+.ul_list li a svg:hover {
+    color: var(--color-yellow);
+    cursor: pointer;
+}
+
+.ul_list li a svg, .ul_list li a{
+    height: 100%;
+    width: 100%;
+    color: var(--color-white);
+}
+
+.footer p {
+    font-weight: 400;
+	font-size: 0.875rem; 
+    line-height: 1.25rem; 
+}

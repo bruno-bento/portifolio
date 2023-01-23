@@ -1,0 +1,95 @@
+.app {
+  height: 100%; 
+  width: 100%;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  flex-wrap: wrap;
+
+}
+
+.container {
+  padding: 1.25rem;
+  height: 65%; 
+  width:  80%;
+  background-color: var(--color-blue);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.container:before,
+.container:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+}
+
+.container:before {
+  top: -10px;
+  left: -10px;
+  border-left: 3px solid var(--color-yellow);
+  border-top: 3px solid var(--color-yellow);
+}
+
+.container:after {
+  right: -10px;
+  bottom: -10px;
+  border-right: 3px solid var(--color-yellow);
+  border-bottom: 3px solid var(--color-yellow);
+}
+
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Notebooks)*/
+/**************************/
+@media (max-width: 84em) {
+  .container{
+    height: 75%;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .container{
+    width: 80%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .container {
+    height: 90%;
+    width: 90%;
+
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+}
+

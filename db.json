@@ -1,0 +1,38 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "Sobre",
+            "description": "Desenvolvedor Full Stack, com 2 anos de experiência no Back-end e 1 ano de experiência em Front-end. Trabalhei em algumas aplicações com integrações com equipamentos eletrônicos (Terminal Facial, Placa Controladora, Catraca) utilizando C# E Java. Possuo sólidos conhecimentos em Front-end como HTML, CSS, JavaScript, VueJs, React, SASS, Cypress, Jest e Tailwind."
+            
+        },
+        {
+            "id": 1,
+            "name": "Grupo DETK",
+            "description": "Site desenvolvido para o Grupo DETK. Utilizando VueJS com o intuito de transimitir elegância e sofisticação.",
+            "github": "",
+            "website": "https://www.grupodetk.com.br/"
+        },
+        {
+            "id": 2,
+            "name": "Treinamento Vue JS",
+            "description": "Projeto desenvolvido durante o treinamento de Vue Js. Aplicando conceitos como Vue Router, custom hooks e consumo de api.",
+            "github": "https://github.com/bruno-bento/treinamento-vue3",
+            "website": "https://bruno-bento-feedbacker-dashboard.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name": "Start Page",
+            "description": "Uma página inicial para testar conceitos de React e facilitar minha navegação por links frequentementes utilizados.",
+            "github": "https://github.com/bruno-bento/start_page",
+            "website": "https://bruno-bento.github.io/start_page/"
+        },
+        {
+            "id": 4,
+            "name": "Cost",
+            "description": "Projeto para gerenciamento de custos de projeto, desenvolvido durante curso de React.",
+            "github": "",
+            "website": ""
+        }
+    ]
+}
