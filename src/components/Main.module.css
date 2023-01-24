@@ -121,7 +121,11 @@
 /* BELOW 544px (Phones) */
 /**************************/
 
-@media (max-width: 34em) {
 
+
+@media (max-width: 22em), (max-height: 47em) {
+    .main_content {
+        overflow: scroll;
+    }
     
 }

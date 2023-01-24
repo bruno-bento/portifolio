@@ -94,9 +94,3 @@
   }
   
 }
-
-@media (max-width: 34em) {
-  .card p {
-    font-size: 0.80rem; 
-  }
-}

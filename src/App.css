@@ -12,8 +12,9 @@
 
 .container {
   padding: 1.25rem;
-  height: 65%; 
   width:  80%;
+  gap: 3rem;
+
   background-color: var(--color-blue);
   position: relative;
 
@@ -91,5 +92,9 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .container {
+    padding: 1.25rem 0px;
+
+  }
 }
 
