@@ -3,20 +3,20 @@
         {
             "id": 0,
             "name": "Sobre",
-            "description": "Desenvolvedor Full Stack, com 2 anos de experiência no Back-end e 1 ano de experiência em Front-end. Trabalhei em algumas aplicações com integrações com equipamentos eletrônicos (Terminal Facial, Placa Controladora, Catraca) utilizando C# E Java. Possuo sólidos conhecimentos em Front-end como HTML, CSS, JavaScript, VueJs, React, SASS, Cypress, Jest e Tailwind."
+            "description": "Sou Desenvolvedor Front-end com dois anos de experiência e já trabalhei tanto no back-end como no front-end, utilizando Vue, HTML, CSS3, C#, Java, ASP.NET, SQLServer e atualmente estou aperfeiçoando React e SASS."
             
         },
         {
             "id": 1,
             "name": "Grupo DETK",
-            "description": "Site desenvolvido para o Grupo DETK. Utilizando VueJS com o intuito de transimitir elegância e sofisticação.",
+            "description": "Site desenvolvido para o Grupo DETK utilizando Figma, Vue, Vue Router, AnimateCSS, Axios, TailwindCSS e mantendo o design system para trazer harmonia, sofisticação e elegância.",
             "github": "",
             "website": "https://www.grupodetk.com.br/"
         },
         {
             "id": 2,
-            "name": "Treinamento Vue JS",
-            "description": "Projeto desenvolvido durante o treinamento de Vue Js. Aplicando conceitos como Vue Router, custom hooks e consumo de api.",
+            "name": "Feedbacker",
+            "description": "Projeto desenvolvido durante o treinamento de Vue Js, com o objetivo de replicar o site feedback.fish utilizando Vue, VueRouter, VueX, Axios, TailwindCSS, Postcss, AnimateCSS, Custom Hooks, Jest e Cypress.",
             "github": "https://github.com/bruno-bento/treinamento-vue3",
             "website": "https://bruno-bento-feedbacker-dashboard.netlify.app/"
         },
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "name": "Cost",
-            "description": "Projeto para gerenciamento de custos de projeto, desenvolvido durante curso de React.",
+            "description": "Projeto para gerenciamento de custos de projeto, desenvolvido durante curso de React para testar conhecimentos como: pros, hooks, consumo de api , criação de componentes e renderização condicional.",
             "github": "",
             "website": ""
         }

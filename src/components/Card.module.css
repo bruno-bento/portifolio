@@ -17,6 +17,8 @@
     font-size: 1.25rem; 
     line-height: 1.5rem; 
     font-weight: 400;
+    text-align: justify;
+    width: 90%;
 }
 
 .card::before {
