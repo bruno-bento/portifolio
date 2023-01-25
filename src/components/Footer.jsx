@@ -21,7 +21,7 @@ function Footer() {
                 </li>
             </ul>
 
-            <p>@ {new Date().getFullYear()} brunob.com.br</p>
+            <p>@ {new Date().getFullYear()} bruno-bento.com</p>
         </footer>
     )
 }
